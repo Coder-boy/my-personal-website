@@ -4,57 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashraf Ahmed</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/style.js"></script>
 </head>
 <body>
-    <header class="header-area">
-        <div class="container">
-            <nav>
-                
-                    <img src="images/ASHRAF LOGO 2.png" alt="">
-    
-                
-                
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-    
-                
-            </nav>
-            <div class="half-width text-area">
-                <h2>Hello I'm</h2>
-                <span class="my-name">Ashraf Ahmed</span>  
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veritatis velit accusantium nihil eos sed dolores quae similique nam, ducimus explicabo rerum ipsum quos quidem nulla dolore pariatur nostrum. Quas.</p>
-                <a class="link-button " href="">HIRE ME</a>
-
-
-            </div>
-            <div class="half-width">
-                <img src="images/peter.png" alt="">
-
-            </div>
+    <header>
+        <nav id="menu-area" class=" navbar navbar-expand-lg navbar-light    fixed-top">
+            <div class="container">
+             <a class=" navbar-brand bl" href="#">
+               <img class="old-logo" src="images/logo.png" alt="">
+               <img class="new-logo" src="images/logo2.png" alt="">
+             </a>
+           <button class="  navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             
-        </div>
-
+                
+               <div class="d-flex justify-content-start lo">
+                <a class=" navbar-brand " href="#"></a>
+                <img class="old-logo" src="images/logo.png" alt="">
+                <img class="new-logo" src="images/logo2.png" alt="">
+              </a>
+               </div>
+             
+                <span class="navbar-toggler-icon" ><i class="fas fa-bars    "></i></span>
+             
+                
+           </button>
+           <div class=" justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
+             <div class="navbar-nav">
+             
+               <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="#smartphone">About</a>
+               <a class="nav-link" href="#laptop">Portfolio</a>
+               <a class="nav-link" href="#categories">Contact</a>
+             </div>
+           </div>
+            </div>
+             
+           
+           </nav>
     </header>
+        <section class="home-area">
+            <div class="container">
+            
+               <div class="row">
+                <div class=" d-flex justify-content-center align-items-center col-md-6 text-area">
+                    <div>
+                        <h2>Hello I'm</h2>
+                    <span class="my-name">Ashraf Ahmed</span>  
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veritatis velit accusantium nihil eos sed dolores quae similique nam, ducimus explicabo rerum ipsum quos quidem nulla dolore pariatur nostrum. Quas.</p>
+                    <a class="link-button " href="">HIRE ME</a>
+                    </div>
+    
+    
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/as.png" alt="">
+    
+                </div>
+               </div>
+                
+            </div>
+
+        </section>
+        
+
+   
 
     <section class="about-area">
         <div class="container">
-            <div class="half-width">
-                <img src="images/peter_dream.png" alt="">
+           <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/ab.png" alt="">
             </div>
-            <div class="half-width about-description">
+            <div class="d-flex justify-content-center align-items-center col-md-6 about-description">
+               <div>
                 <h2>About me</h2>
                 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veritatis velit accusantium nihil eos sed dolores quae similique nam, ducimus explicabo rerum ipsum quos quidem nulla dolore pariatur nostrum. Quas.</p>
                 <a class="link-button2 " href="">HIRE ME</a>
+               </div>
 
             </div>
+           </div>
         </div>
 
     </section>
@@ -64,10 +97,16 @@
             <div class="title">
                 <h2>My Latest Work</h2>
             </div>
-            <div class="work-img">
-                <img src="images/latest-work/work-1.png" alt="">
-                <img src="images/latest-work/work-2.jpg" alt="">
-                <img src="images/latest-work/work-3.jpg" alt="">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    
+                </div>
+                <div class="col-md-4">
+                    
+                </div>
             </div>
         </div>
     
@@ -96,5 +135,11 @@
     <footer>
         <p> Ashraf Ahmed, © 2020 All rights Reserved.</p>
     </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
