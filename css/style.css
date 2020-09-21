@@ -92,3 +92,217 @@ section.home-area {
     background-size: cover;
     padding: 100px 0;
 }
+
+a.link-button {
+    background-image: linear-gradient(45deg, #ffa032, #ffcf19);
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.link-button2 {
+    background-image: linear-gradient(45deg, #ff1b88, #ff61b1);
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.about-area{
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    
+}
+.portfolio-area{
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    
+}
+.work1{
+    
+  height: 400px;
+    background: black;
+    transition: 10s ease-in-out ;
+    background-position: top;
+
+}
+.work1.wb1{
+    background-image: url(../images/work1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.work1:hover{
+    background-position: bottom;
+}
+
+.work2{
+    
+    height: 400px;
+      background: black;
+      transition: 10s ease-in-out ;
+      background-position: top;
+  
+  }
+  .work2.wb2{
+      background-image: url(../images/work2.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+  }
+  .work2:hover{
+      background-position: bottom;
+  }
+
+  .work3{
+    
+    height: 400px;
+      background: black;
+      transition: 10s ease-in-out ;
+      background-position: top;
+  
+  }
+  .work3.wb3{
+      background-image: url(../images/work3.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+  }
+  .work3:hover{
+      background-position: bottom;
+  }
+
+  .work4{
+    
+    height: 400px;
+      background: black;
+      transition: 10s ease-in-out ;
+      background-position: top;
+  
+  }
+  .work4.wb4{
+      background-image: url(../images/work4.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+  }
+  .work4:hover{
+      background-position: bottom;
+  }
+  .work5{
+    
+    height: 400px;
+      background: black;
+      transition: 10s ease-in-out ;
+      background-position: top;
+  
+  }
+  .work5.wb5{
+      background-image: url(../images/work5.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+  }
+  .work5:hover{
+      background-position: bottom;
+  }
+  .work6{
+    
+    height: 400px;
+      background: black;
+      transition: 10s ease-in-out ;
+      background-position: top;
+  
+  }
+  .work6.wb6{
+      background-image: url(../images/work6.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+  
+  }
+  .work6:hover{
+      background-position: bottom;
+  }
+  .container.ws {
+    padding: 50px 15px;
+}
+
+
+.title {
+    padding: 30px 0px;
+}
+.carousel-indicators li{
+    background-color: #ffe123
+    ;
+}
+.c-bg{
+    background-image: linear-gradient(45deg, #ffa032, #ffcf19);
+}
+.carousel-inner {
+    
+    padding: 50px 0px;
+}
+section.contact-area {
+    padding: 50px 0px;
+}
+
+.text-center.col-md-6.t-desc {
+    padding: 30px 0px;
+}
+textarea {
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #80808042;
+}
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 10px 0px;
+}
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 10px 0px;
+    width: 60%;
+    margin: auto;
+}
+
+input.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #80808030;
+    border-radius: unset;
+}
+input.link-button{
+    background-image: linear-gradient(45deg, #ffa032, #ffcf19);
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+   
+}
+footer p{
+    text-align: center;
+}

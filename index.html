@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/style.js"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -35,9 +36,9 @@
              <div class="navbar-nav">
              
                <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-               <a class="nav-link" href="#smartphone">About</a>
-               <a class="nav-link" href="#laptop">Portfolio</a>
-               <a class="nav-link" href="#categories">Contact</a>
+               <a class="nav-link" href="#about">About</a>
+               <a class="nav-link" href="#portfolio">Portfolio</a>
+               <a class="nav-link" href="#contact">Contact</a>
              </div>
            </div>
             </div>
@@ -45,7 +46,7 @@
            
            </nav>
     </header>
-        <section class="home-area">
+        <section class="home-area" id="home">
             <div class="container">
             
                <div class="row">
@@ -72,7 +73,7 @@
 
    
 
-    <section class="about-area">
+    <section class="about-area" id="about">
         <div class="container">
            <div class="row">
             <div class="col-md-6">
@@ -83,7 +84,7 @@
                 <h2>About me</h2>
                 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus veritatis velit accusantium nihil eos sed dolores quae similique nam, ducimus explicabo rerum ipsum quos quidem nulla dolore pariatur nostrum. Quas.</p>
-                <a class="link-button2 " href="">HIRE ME</a>
+                <a class="link-button2 " href="">Download Resume</a>
                </div>
 
             </div>
@@ -92,44 +93,197 @@
 
     </section>
 
-    <section class="portfolio-area">
+    <section class="portfolio-area" id="portfolio">
         <div class="container">
             <div class="title">
-                <h2>My Latest Work</h2>
+                <h2 class="text-center">My Latest Work</h2>
             </div>
-            <div class="row">
-                <div class="col-md-4">
+            
+                <div class="card-deck">
+                    <div class="card">
+                      
+                        <div class="work4 wb4">
 
-                </div>
-                <div class="col-md-4">
+                        </div>
+                      
+                    </div>
+                    <div class="card">
                     
-                </div>
-                <div class="col-md-4">
+                  
+                        <div class=" work5 wb5">
+                        
+                        </div>
+                      
+                    </div>
+                    <div class="card">
+                      
+                      
+                        <div class=" work6 wb6">
+                        
+                        </div>
+                      
+                    </div>
+                  </div>
                     
+
+                 
+                    
+                    
+                    
+            
+            
+        </div>
+
+        <div class="container ws">
+            <div class="card-deck">
+                <div class="card">
+                  
+                    <div class="work1 wb1">
+
+                    </div>
+                  
                 </div>
-            </div>
+                <div class="card">
+                
+              
+                    <div class=" work2 wb2">
+                    
+                    </div>
+                  
+                </div>
+                <div class="card">
+                  
+                  
+                    <div class=" work3 wb3">
+                    
+                    </div>
+                  
+                </div>
+              </div>
+              
         </div>
     
     </section>
 
     <section class="testimonial-area">
-        <div class="title">
-            <h2>What Client are say </h2>
+        <div class="container">
+            <div class="title">
+                <h2 class="text-center">What Client are say </h2>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide c-bg" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="d-flex flex-column align-items-center align-content-center">
+                          <div class="col-md-6">
+                            <img class="img-fluid img rounded-circle img-thumbnail" src="images/cll (1).jpg" class="d-block w-50" alt="...">
+
+                          </div>
+                          <div class="text-center col-md-6 t-desc">
+                              <h3>Abdullah</h3>
+                              <h6>CEO</h6>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed tempora nulla.</p>
+                              
+                        </div>
+
+
+                      </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center align-content-center">
+                        <div class="col-md-6">
+                          <img class="img-fluid img rounded-circle img-thumbnail" src="images/cll.jpg" class="d-block w-50" alt="...">
+
+                        </div>
+                        <div class="text-center col-md-6 t-desc">
+                            <h3>Abdullah</h3>
+                            <h6>CEO</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed tempora nulla.</p>
+                            
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center align-content-center">
+                        <div class="col-md-6">
+                          <img class="img-fluid img rounded-circle img-thumbnail" src="images/cll (3).jpg" class="d-block w-50" alt="...">
+
+                        </div>
+                        <div class="text-center col-md-6 t-desc">
+                            <h3>Abdullah</h3>
+                            <h6>CEO</h6>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed tempora nulla.</p>
+                            
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
         </div>
-        <div class="testimonial-description">
-            <h3>Bruce Moccy</h3>
-        <h6>Founder & CEO Alies</h6>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero optio inventore eum incidunt magnam.</p>
+        
+
+    </section>
+    <section class="contact-area" id="contact" >
+        <div class="container">
+            <div class="title">
+                <h2 class="text-center">Conatact with me </h2>
+            </div>
+            <form>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder=" Name">
+                  </div>
+                
+                  
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="email" class="form-control" placeholder="Email">
+                      </div>
+                      
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="tel" class="form-control" placeholder="Number">
+                      </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-12">
+                    
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                      </div>
+
+                </div>
+                <div class="form-row">
+                    <div class=" col-md-12">
+                    
+                        <input class="link-button" type="submit" value="Send">
+                      </div>
+
+                </div>
+
+            </div>
+                  
+              </form>
         </div>
-
-        <div class="mail-box">
-            <h6>Leave me a message in the</h6>
-
-            <h3>aaa252324@gmail.com</h3>
-
-        </div>
-
     </section>
 
     <footer>
