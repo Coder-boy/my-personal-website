@@ -1,16 +1,22 @@
 
-    
-    .navbar-expand-lg .navbar-toggler{
-        width: 100%;
-        
-        text-align: right;
-        box-sizing: border-box;
-        padding: 15px 24px;
-        cursor: pointer;
-        color: #fff;
-        display: none;
-    }
-   
+*{margin: 0;
+padding: 0;}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}    
+.navbar-expand-lg .navbar-toggler{
+ width: 100%;
+                        
+ text-align: right;
+ box-sizing: border-box;
+ padding: 15px 24px;
+ cursor: pointer;
+ color: #fff;
+ display: none;
+}
+                
  @media (max-width: 992px){
  .navbar-expand-lg .navbar-toggler {
     display: block;
@@ -57,7 +63,11 @@ nav.black .old-logo {
 nav.black .new-logo {
     visibility: visible;
 }
-
+span.my-name {
+    font-weight: 700;
+    color: #ffb825;
+    font-size: 40px;
+}
 .justify-content-start lo {
     -ms-flex-pack: start!important;
     justify-content: flex-start!important;
@@ -85,7 +95,16 @@ nav.black span i.fas.fa-bars {
     color: white;
     padding: 5px 5px;
 }
-
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(2 2 2 / 72%);
+    font-size: 20px;
+    font-weight: 700;
+}
 section.home-area {
     background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
@@ -95,20 +114,20 @@ section.home-area {
 
 a.link-button {
     background-image: linear-gradient(45deg, #ffa032, #ffcf19);
-    padding: 5px 15px;
+    padding: 8px 15px;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 30px;
     text-decoration: none;
 }
 a.link-button2 {
     background-image: linear-gradient(45deg, #ff1b88, #ff61b1);
-    padding: 5px 15px;
+    padding: 6px 15px;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 30px;
     text-decoration: none;
 }
 .about-area{
@@ -255,6 +274,7 @@ section.contact-area {
 
 .text-center.col-md-6.t-desc {
     padding: 30px 0px;
+    color: white;
 }
 textarea {
     overflow: auto;
@@ -292,17 +312,25 @@ input.form-control {
     border-bottom: 1px solid #80808030;
     border-radius: unset;
 }
-input.link-button{
+input.link-button {
     background-image: linear-gradient(45deg, #ffa032, #ffcf19);
-    padding: 5px 15px;
+    padding: 6px 25px;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 30px;
     text-decoration: none;
     border: none;
-   
+}
+.img-thumbnail {
+  
+    max-width: 50%;
+    
+}
+footer{
+    background-image: linear-gradient(45deg, #464545, #000000);
 }
 footer p{
     text-align: center;
+    color: white;
 }
